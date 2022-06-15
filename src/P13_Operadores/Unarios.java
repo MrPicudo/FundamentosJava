@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Unarios {
     public static void main(String[] args) {
+        /* Los operadores unarios únicamente necesitan un operador para funcionar */
         Scanner scan = new Scanner(System.in);
         // Los operadores unarios pueden cambiar el signo o el valor de verdad de una variable.
         var a = 10;
