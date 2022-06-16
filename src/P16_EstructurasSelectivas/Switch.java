@@ -11,33 +11,33 @@ public class Switch {
         while (cen) {
             System.out.print("Escribe un color del arcoíris o escribe salir: ");
             var color = scan.nextLine();
-            switch (color) {
-                case "rojo", "Rojo", "ROJO" -> {
+            switch (color.toLowerCase()) {
+                case "rojo" -> {
                     System.out.println("El rojo es un color primario. \n");
                 }
-                case "amarillo", "Amarillo", "AMARILLO" -> {
+                case "amarillo" -> {
                     System.out.println("El amarillo es un color primario. \n");
                 }
-                case "azul", "Azul", "AZUL" -> {
+                case "azul" -> {
                     System.out.println("El azul es un color primario. \n");
                 }
-                case "verde", "Verde", "VERDE" -> {
+                case "verde" -> {
                     System.out.println("El verde es un color secundario.");
                     System.out.println("Se obtiene de la combinación de amarillo y azul. \n");
                 }
-                case "naranja", "Naranja", "NARANJA" -> {
+                case "naranja" -> {
                     System.out.println("El naranja es un color secundario.");
                     System.out.println("Se obtiene de la combinación de rojo y amarillo. \n");
                 }
-                case "morado", "Morado", "MORADO" -> {
+                case "morado" -> {
                     System.out.println("El morado es un color secundario.");
                     System.out.println("Se obtiene de la combinación de rojo y azul. \n");
                 }
-                case "cafe", "Cafe", "CAFE" -> {
+                case "cafe" -> {
                     System.out.println("El cafe es un color secundario.");
                     System.out.println("Se obtiene de la combinación de los tres colores primarios. \n");
                 }
-                case "salir", "Salir", "SALIR" -> {
+                case "salir" -> {
                     System.out.println("Programa terminado. \n");
                     cen = false;
                 }
