@@ -1,5 +1,5 @@
 /* Este código es EXCELENTE para usar el modo debug y ver cómo funciona el programa */
-package P16_EstructuraSelectiva;
+package P16_EstructurasSelectivas;
 import java.util.Scanner;
 
 public class IfElse {
