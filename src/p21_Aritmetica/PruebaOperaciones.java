@@ -29,5 +29,10 @@ public class PruebaOperaciones {
         System.out.print("    Número 2: ");
         var b = Double.parseDouble(scan.nextLine());
         black.sumar2(a, b);
+        // Finalmente analizamos el uso de constructores vacíos y con argumentos.
+        Operaciones objeto1 = new Operaciones();
+        objeto1.info(); // Creamos el objeto 1 con el constructor vacío.
+        Operaciones objeto2 = new Operaciones(28, 32); // Usamos "datos duros" para el contructor.
+        objeto2.info(); // Creamos el objeto 2 con el constructor que inicializa los atributos.
     }
 }

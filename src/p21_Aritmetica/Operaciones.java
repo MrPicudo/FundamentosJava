@@ -6,6 +6,24 @@ public class Operaciones {
     
     /* MÉTODOS */
     
+    // Constructor vacío
+    public Operaciones() {
+        // El constructor vacío es el mismo que se crea de manera automática por el compilador si no definimos ninguno.
+    }
+    
+    // Constructor con argumentos (al definirlo, estamos usando una sobrecarga de constructores)
+    public Operaciones(double num1, double num2) {
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+    
+    // Método para mostrar el valor de los atributos del objeto.
+    public void info() {
+        System.out.println("\nInformación de los atributos del objeto.");
+        System.out.println("   Valor de la variable \"num1\": " + this.num1);
+        System.out.println("   Valor de la variable \"num2\": " + this.num2);
+    }
+    
     // Método público sin retorno ni argumentos.
     public void sumar() {
         var suma = num1 + num2;
