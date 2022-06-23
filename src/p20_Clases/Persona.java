@@ -2,9 +2,9 @@ package p20_Clases;
 
 public class Persona {
     // Definimos los atributos de nuestra clase.
-    String nombre;
-    String genero;
-    int edad;
+    public String nombre; // Definimos los atributos como públicos para acceder a ellos al importar la clase.
+    public String genero;
+    public int edad;
     
     // Después de los atributos, definimos los métodos de nuestra clase.
     public void info() {
