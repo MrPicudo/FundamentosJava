@@ -9,11 +9,11 @@ public class VariablesLocales {
     /* Creamos el objeto scan para poder pedir valores desde la consola */
     Scanner scan = new Scanner(System.in);
     
-    /* ATRIBUTOS */
-    int entero;
-    double flotante;
-    boolean hecho;
-    String cadena;
+    /* ATRIBUTOS --- modificados a tipo public para poder acceder a ellos al importar esta clase */
+    public int entero;
+    public double flotante;
+    public boolean hecho;
+    public String cadena;
     
     /* MÉTODOS */
     public void metodo1() {
