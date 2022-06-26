@@ -59,6 +59,7 @@ public class Libro {
     }
     
     // Método toString para mostrar el estado de los atributos de un objeto.
+    @Override // Lo agregamos por el concepto de herencia, ya que toString está relacionado con la clase Object.
     public String toString() {
         return "Libro [titulo: " + this.titulo + 
                 ", año: " + this.año + 
