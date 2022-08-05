@@ -1,7 +1,6 @@
 package p36_sistemaventasdom;
 
 public class Orden {
-    
     /* ATRIBUTOS */
     private final int idOrden; // Lo definimos como final porque no se le cambia el valor después de la primera vez.
     private Producto productos[];
@@ -36,7 +35,6 @@ public class Orden {
             this.productos[this.numeroProductos++] = producto;
         else
             System.out.println("Se ha superado el número máximo de productos en la orden. \n");
-        
     }
     
     // Método para calcular el pago total de la orden verificando que se tenga al menos un producto.

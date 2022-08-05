@@ -1,7 +1,6 @@
 package p36_sistemaventasdom;
 
 public class Producto {
-    
     /* ATRIBUTOS */
     private final int idProducto; // Definimos el ID como final porque no se va a poder modificar (no tiene método set)
     private String nombre;
