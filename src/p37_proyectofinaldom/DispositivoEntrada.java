@@ -37,8 +37,8 @@ public class DispositivoEntrada {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("DispositivoEntrada[");
-        sb.append("tipoEntrada: ").append(tipoEntrada);
-        sb.append(", marca: ").append(marca);
+        sb.append("tipoEntrada: ").append(this.tipoEntrada);
+        sb.append(", marca: ").append(this.marca);
         sb.append("]");
         return sb.toString();
     }
