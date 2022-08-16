@@ -19,6 +19,8 @@ public class MundoPC {
         Orden orden1 = new Orden();
         orden1.agregarComputadora(computadoraHP);
         orden1.agregarComputadora(computadoraGamer);
+        // Agregamos una computadora extra al límite de computadoras de cada orden (2)
+        orden1.agregarComputadora(computadoraHP);
         orden1.mostrarOrden();
     }
 }

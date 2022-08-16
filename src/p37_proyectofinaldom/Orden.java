@@ -7,7 +7,7 @@ public class Orden {
     private Computadora computadoras[];
     private static int contadorOrdendes;
     private int contadorComputadoras;
-    private static final int MAXCOMPUTADORAS = 10;
+    private static final int MAXCOMPUTADORAS = 2;
     
     /* CONSTRUCTORES */
     public Orden() {
